@@ -1,0 +1,174 @@
+
+/*.section:overflow {
+    overflow: scroll;
+    background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+*/
+#fixed {
+  position: fixed;
+  /*基準を画面の左上に*/
+  top: 0;
+  left: 0;
+  /*余白が入らないように*/
+  z-index: 100;
+  margin: 0;
+  /*以下装飾*/
+  width: 100%;
+  height: 40px;
+  background: #FFC778;
+  color:white;
+  text-align: center;
+}
+/*
+h1:hover {
+  transform: scale(2) ;
+  top: -40px;
+}
+/*上　右　下　左*/
+.container {
+ float: left;
+ position: absolute;
+  left: 150px;
+  width: 800px;
+}
+.box7{cursor: pointer;}
+.box7{
+     float: left;
+     padding: 0.5em 50px 0.5em 0.5em;
+     margin: 2em 0;
+     color: #474747;
+     background: whitesmoke;/*背景色*/
+     border-left: double 7px #4ec4d3;/*左線*/
+     border-right: double 7px #4ec4d3;/*右線*/
+     width: 400;
+}
+.box7 p {
+     margin: 0;
+     padding: 0;
+}
+.box17{
+  position: relative;
+  /*top: 150px;*/
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+  background: #e6f4ff;
+  color: #5c98d4;
+font-weight: bold;
+}
+.box17 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box17 p {
+    margin: 0 ;
+    padding: 0;
+}
+/*------------------------------------------------------------------------*/
+.box99{
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #ffb3d7;
+  border-radius: 8px;
+  background: #ffe6f2;
+  color: #ff66ad;
+font-weight: bold;
+}
+.box99 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #ffb3d7;
+    font-weight: bold;
+}
+.box99 p {
+    margin: 0;
+    padding: 0;
+}
+.anime_test {
+    display:  block;                /* ブロック要素にする */
+                                    /* 要素中央揃え */
+    position:  relative;            /* 位置指定 */
+    animation: anime1 1s ease;      /* アニメーション指定 */
+}
+
+@keyframes anime1 {
+    0% {
+        opacity:  0;                /* 透明度指定 */
+        top: 50px;                  /* 位置指定 */
+    }
+    100% {
+        opacity:  1;                /* 透明度指定 */
+        top: 0;                     /* 位置指定 */
+    }
+}
+table-of-contents {float: left;}
+.photos {
+    display: flex;
+    align-items: flex-end;
+    float: left;
+    display: inline-block;
+    width: 230px;
+    height: 159px;
+    padding: 0 0 10px 0;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.photos:hover {
+    background-color: #FFCCCC;
+    width: 230px;
+    height: 159px;
+    transform: rotate(18000deg) scale(30) ;
+    transition-timing-function: linear;
+}
+.photo img{
+
+  transition: all 1s;
+}
+.photo:hover img{
+  left:0px; /* 10px→0px とし、幅も600から630とする  実際の動作を確認して指定すると良い */
+  top:0px;
+  width:70%;
+  height: 40%;
+}
+.ue{
+ height: 300px;
+ padding: 50px 0;
+}
+.migi{
+ float: left;
+ width: 300px;
+ position: absolute;
+ left:1000px;
+ top: 80px;
+ padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+}
+.section{
+
+}
+/*.box888{
+ height: 400px;
+ padding: 20px 0;
+
+}
+*/
